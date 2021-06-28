@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+               <link rel="shortcut icon" href="cursor.png">
+               <title>Clicker game</title>
+               <link rel="stylesheet" href="cl.css">
+</head>
+
+<body style="margin: 0px;">
+               <div id="container">
+
+                              <div id="popup_bg" class="hidden"></div>
+                              <div id="popup_message" class="hidden">
+                                             <div id="close" class="hidden">Cancel</div>
+                                             <span id="error"></span>
+                              </div>
+
+                              <div id="border">
+                                             <div id="upgrade">
+                                                            <input type="button" id="openShop_text" value="Open Shop">
+                                                            <input type="button" class="hidden" id="back_text"
+                                                                           value="Back">
+                                                            <input type="button" class="hidden" id="upgrade_text"
+                                                                           value="Do you want to get an upgrade?">
+                                                            <input type="button" class="hidden" id="firstUpgrade_text"
+                                                                           value="Update (+1 click value, -50 clicks)">
+                                                            <input type="button" class="hidden" id="secondUpgrade_text"
+                                                                           value="Update (+5 click value, -500 clicks)">
+
+                                             </div>
+
+                                             <div id="clicker">
+                                                            <h1 id="header">You have clicked: 0</h1>
+
+                                                            <input type="button" value="Click" id="but">
+                                             </div>
+                              </div>
+
+
+               </div>
+
+               <script src="cl.js"></script>
+</body>
+
+</html>

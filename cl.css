@@ -1,0 +1,131 @@
+#container {
+               margin: 0px;
+               width: 100%;
+               height: 637px;
+}
+
+#border {
+               width: 500px;
+               height: 500px;
+               border: 2px ridge black;
+               margin-left: 31%;
+               margin-top: 60px;
+               position: absolute;
+               border-radius: 5px;
+}
+
+#header {
+               font-size: 30px;
+               font-weight: 500;
+               font-family: sans-serif;
+               margin-left: 25%;
+               margin-top: 150px;
+               cursor: default;
+}
+
+#but {
+               font-size: 30px;
+               font-weight: 500;
+               font-family: sans-serif;
+               margin-left: 42.5%;
+               background-color: rgba(67, 224, 101, 0.931);
+               border: 1px solid rgba(128, 128, 128, 0.685);
+               border-radius: 5px;
+               cursor: pointer;
+}
+
+#upgrade {
+               width: 300px;
+               height: 40px;
+               position: absolute;
+               margin-left: 12%;
+               margin-top: 270px;
+               cursor: pointer;
+}
+
+#upgrade_text {
+               margin-left: 10%;
+               font-size: 20px;
+               font-weight: 100;
+               width: 320px;
+               justify-content: center;
+               height: 50px;
+               border: 1px solid rgba(128, 128, 128, 0.685);
+               border-radius: 5px;
+               cursor: pointer;
+}
+
+#openShop_text {
+               margin-left: 10%;
+               font-size: 20px;
+               font-weight: 100;
+               width: 320px;
+               justify-content: center;
+               height: 50px;
+               border: 1px solid rgba(128, 128, 128, 0.685);
+               border-radius: 5px;
+               cursor: pointer;
+}
+
+#back_text {
+               margin-left: 10%;
+               font-size: 20px;
+               font-weight: 100;
+               width: 320px;
+               justify-content: center;
+               height: 50px;
+               border: 1px solid rgba(128, 128, 128, 0.685);
+               border-radius: 5px;
+               cursor: pointer;
+}
+
+#firstUpgrade_text {
+               margin-left: 10%;
+               font-size: 20px;
+               font-weight: 100;
+               width: 320px;
+               justify-content: center;
+               height: 50px;
+               margin-bottom: 5px;
+               border: 1px solid rgba(128, 128, 128, 0.685);
+               border-radius: 5px;
+               cursor: pointer;
+}
+
+#secondUpgrade_text {
+               margin-left: 10%;
+               font-size: 20px;
+               font-weight: 100;
+               width: 320px;
+               justify-content: center;
+               height: 50px;
+               border: 1px solid rgba(128, 128, 128, 0.685);
+               border-radius: 5px;
+               cursor: pointer;
+}
+
+.hidden {
+               display: none;
+
+}
+
+.marginBottom {
+               margin-bottom: 30px;
+}
+
+#popup_bg {
+               background-color: rgba(0, 0, 0, 0.705);
+               width: 100%;
+               height: 637px;
+               z-index: 99998;
+               position: absolute;
+}
+
+#popup_message {
+               z-index: 99999;
+               position: absolute;
+               color: blanchedalmond;
+               margin-left: 38%;
+               font-size: 30px;
+               margin-top: 140px;
+}
